@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.office.RTD_MYRIDE.tests.LoginTest">
+        <methods>
+          <include name="testloginsuccessful" invocation-numbers="1 2"/>
+          <include name="beforeMethod"/>
+          <include name="beforesuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.office.RTD_MYRIDE.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
